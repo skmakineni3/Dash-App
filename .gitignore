@@ -6,3 +6,4 @@ venv/
 .envdata/
 data/
 data/sp500_data.csv
+data/sp500_data.csv
