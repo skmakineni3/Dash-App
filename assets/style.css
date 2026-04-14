@@ -1,0 +1,336 @@
+:root {
+  --bg: #0b1220;
+  --card: #141b2d;
+  --card-2: #182235;
+  --border: #2a3550;
+  --text: #edf2f7;
+  --muted: #aebbd0;
+  --accent: #4f8cff;
+  --accent-2: #8eb8ff;
+  --shadow: 0 8px 24px rgba(0, 0, 0, 0.28);
+  --radius: 18px;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html,
+body {
+  margin: 0;
+  padding: 0;
+  background:
+    radial-gradient(circle at top center, rgba(36, 78, 160, 0.20) 0%, rgba(11, 18, 32, 0) 35%),
+    linear-gradient(180deg, #09101b 0%, #0b1220 100%);
+  color: var(--text);
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+  min-height: 100vh;
+}
+
+a {
+  color: var(--accent-2);
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  color: var(--text);
+  margin-top: 0;
+}
+
+p,
+label,
+li {
+  color: var(--text);
+}
+
+.app-shell {
+  max-width: 1480px;
+  margin: 0 auto;
+  padding: 26px 34px 40px 34px;
+}
+
+.hero-block {
+  text-align: center;
+  margin-bottom: 26px;
+}
+
+.hero-title {
+  font-size: 3rem;
+  font-weight: 800;
+  margin-bottom: 8px;
+  letter-spacing: -0.02em;
+}
+
+.hero-author {
+  margin: 0 0 10px 0;
+  color: var(--accent-2);
+  font-size: 1rem;
+  font-weight: 700;
+}
+
+.hero-subtitle {
+  max-width: 980px;
+  margin: 0 auto;
+  color: var(--muted);
+  font-size: 1.08rem;
+  line-height: 1.65;
+}
+
+.card {
+  background: linear-gradient(180deg, rgba(20, 27, 45, 0.98) 0%, rgba(16, 23, 38, 0.98) 100%);
+  border: 1px solid var(--border);
+  border-radius: var(--radius);
+  box-shadow: var(--shadow);
+  padding: 24px 26px;
+}
+
+.card-large {
+  padding: 28px 30px;
+}
+
+.section-title {
+  text-align: center;
+  font-size: 1.9rem;
+  font-weight: 800;
+  margin-bottom: 10px;
+  line-height: 1.2;
+}
+
+.visual-description {
+  max-width: 950px;
+  margin: 0 auto 20px auto;
+  text-align: center;
+  color: var(--muted);
+  font-size: 1.04rem;
+  line-height: 1.7;
+}
+
+.note-text {
+  margin-top: 10px;
+  text-align: center;
+  color: var(--muted);
+  font-size: 1rem;
+  line-height: 1.7;
+}
+
+.section-gap {
+  height: 24px;
+}
+
+
+.kpi-grid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 20px;
+}
+
+.kpi-card {
+  background: linear-gradient(180deg, rgba(20, 27, 45, 0.98) 0%, rgba(16, 23, 38, 0.98) 100%);
+  border: 1px solid var(--border);
+  border-radius: 18px;
+  box-shadow: var(--shadow);
+  padding: 22px 20px;
+  text-align: center;
+}
+
+.kpi-label {
+  margin: 0 0 10px 0;
+  color: var(--muted);
+  font-size: 0.95rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.04em;
+}
+
+.kpi-value {
+  margin: 0;
+  color: var(--text);
+  font-size: 2.1rem;
+  font-weight: 800;
+  line-height: 1.1;
+}
+
+.kpi-value-small {
+  font-size: 1.45rem;
+}
+
+.kpi-subtext {
+  margin: 10px 0 0 0;
+  color: var(--accent-2);
+  font-size: 0.92rem;
+  line-height: 1.45;
+}
+
+/* STORY GRID */
+
+.story-grid {
+  display: grid;
+  grid-template-columns: 360px 1fr;
+  gap: 24px;
+  align-items: start;
+}
+
+.controls-panel {
+  background: linear-gradient(180deg, rgba(17, 23, 38, 0.98) 0%, rgba(12, 17, 28, 0.98) 100%);
+  border: 1px solid #2a3550;
+  border-radius: var(--radius);
+  box-shadow: var(--shadow);
+  padding: 26px 24px;
+  position: sticky;
+  top: 18px;
+}
+
+.panel-title {
+  text-align: center;
+  font-size: 1.6rem;
+  font-weight: 800;
+  margin-bottom: 14px;
+}
+
+.panel-description {
+  color: var(--muted);
+  text-align: center;
+  line-height: 1.7;
+  margin-bottom: 12px;
+}
+
+.panel-note {
+  color: var(--accent-2);
+  text-align: center;
+  line-height: 1.65;
+  font-size: 0.96rem;
+  margin-bottom: 22px;
+}
+
+.control-block {
+  margin-bottom: 20px;
+}
+
+.control-label {
+  display: block;
+  margin-bottom: 8px;
+  font-weight: 700;
+  font-size: 1.02rem;
+  color: var(--text);
+}
+
+.animation-card {
+  min-height: 100%;
+}
+
+
+.top-controls-row {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 16px;
+}
+
+.top-control-box {
+  width: 340px;
+}
+
+
+
+/* 1. Global Reset for Filter Inputs */
+.dash-dropdown, 
+.dash-dropdown *, 
+.DateRangePicker, 
+.DateRangePicker *,
+.DateInput,
+.DateInput * {
+  color: #000000 !important;
+  -webkit-text-fill-color: #000000 !important;
+  text-shadow: none !important;
+}
+
+/* 2. Dropdown specific fixes */
+.dash-dropdown .Select-control {
+  background: white !important;
+  border: 1px solid #d2dae8 !important;
+  border-radius: 12px !important;
+  min-height: 48px !important;
+}
+
+.dash-dropdown .Select-menu-outer {
+  background: white !important;
+  border: 1px solid #d2dae8 !important;
+}
+
+.dash-dropdown .Select-placeholder {
+  color: #666 !important;
+  -webkit-text-fill-color: #666 !important;
+}
+
+/* 3. Date Picker specific fixes */
+.DateRangePickerInput {
+  background-color: white !important;
+  border: 1px solid #d2dae8 !important;
+  border-radius: 12px !important;
+  width: 100% !important;
+  display: flex !important;
+  align-items: center !important;
+  overflow: hidden !important;
+}
+
+.DateInput, .DateInput_input {
+  background: white !important;
+  background-color: white !important;
+  width: 100% !important;
+}
+
+.DateInput_input {
+  border: none !important;
+  font-weight: 600 !important;
+  padding: 12px 10px !important;
+}
+
+/* Force the arrow icon and clear button to black (did not work)*/
+.DateRangePickerInput_arrow_svg,
+.DateRangePickerInput_clearDates_svg {
+  fill: #000 !important;
+}
+
+/* 4. Calendar Popup fixes */
+.CalendarMonth,
+.CalendarMonthGrid,
+.DayPicker,
+.DayPicker_transitionContainer,
+.DayPicker__horizontal,
+.CalendarDay__default {
+  background: white !important;
+  color: black !important;
+}
+
+.CalendarDay__selected {
+  background: var(--accent) !important;
+  color: white !important;
+}
+
+
+
+.js-plotly-plot,
+.plot-container,
+.svg-container {
+  border-radius: 14px !important;
+}
+
+@media (max-width: 1200px) {
+  .kpi-grid { grid-template-columns: repeat(2, 1fr); }
+  .story-grid { grid-template-columns: 1fr; }
+  .controls-panel { position: static; }
+}
+
+@media (max-width: 700px) {
+  .kpi-grid { grid-template-columns: 1fr; }
+  .top-control-box { width: 100%; }
+  .app-shell { padding: 18px 16px 28px 16px; }
+  .hero-title { font-size: 2.2rem; }
+  .section-title { font-size: 1.55rem; }
+}
