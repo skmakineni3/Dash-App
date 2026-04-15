@@ -56,6 +56,15 @@ Notes for reviewers
 If you want to run the app quickly without the full dataset, use the sample CSV or let me know and I can provide a temporary download link.
 I welcome feedback on hosting preferences; I will update the README with a live URL once hosting is finalized.
 Contact
+Pictures of the Dash APP and different functions:
+<img width="1512" height="982" alt="Screenshot 2026-04-15 at 3 14 40 PM" src="https://github.com/user-attachments/assets/2a38bed2-4312-4857-a09c-cfc976d6031f" />
+<img width="1512" height="982" alt="Screenshot 2026-04-15 at 3 15 06 PM" src="https://github.com/user-attachments/assets/d207b46e-bdb4-48d3-b9db-9a761a05ab24" />
+<img width="1512" height="982" alt="Screenshot 2026-04-15 at 3 15 15 PM" src="https://github.com/user-attachments/assets/941a4b62-41e9-46bf-b894-a437781b75f0" />
+<img width="1512" height="982" alt="Screenshot 2026-04-15 at 3 15 19 PM" src="https://github.com/user-attachments/assets/d856e760-762f-4404-95ab-c124967793ca" />
+<img width="1512" height="982" alt="Screenshot 2026-04-15 at 3 15 23 PM" src="https://github.com/user-attachments/assets/2b645d2f-421b-481f-a4a8-fa499122cd7c" />
+
+
 
 GitHub: https://github.com/skmakineni3
-Email: (use the email on my GitHub profile)
+Email: skmakineni@gmail.com
+
